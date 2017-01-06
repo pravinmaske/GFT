@@ -1,0 +1,30 @@
+This is a file for basic git commands:
+
+1. git clone https://github.com/pravinmaske/GFT.git
+ above command is to clone git Repo into local directory
+
+2. git status
+	Tells what is modified and whats not modified i.e. the changes
+3. git add filename.java
+	to add file on repo
+4. git commit -m "msg on updations "
+	commiting the changes and finilizing the changes
+5. git log
+	to see what happened
+6. git remote add origin https:// address of origin repo
+7. git push -u origin master
+
+
+/------------NEW FILE ON LOCAL & WANTS TO UPDATE ON REPO---------/
+1. Create a file gedit xyz.txt and save it
+2. git status : it'll show untrakked files
+3. git add . : to untrakked files
+4. git commit -m "txt file is added as"
+5.git status : if it says 'Nothing to commit'u r on track
+6. git push 
+
+
+/***********************END*************/
+
+git pull origin master : to pull all the files on local directory
+	
